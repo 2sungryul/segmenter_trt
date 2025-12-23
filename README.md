@@ -2,6 +2,12 @@
 
 segmentation model : seg_b_mask_16_ade20k
 
+class : 150(ADE20K)
+
+model input size : 3x512x512
+
+model output size : 150x512x512
+
 dependencies : wsl2-ubuntu24.04, ROS2 Jazzy, TensorRT 10.14.1, Cuda 12.9.1, cudnn 8.9.7
 
 TensorRT engine file : https://drive.google.com/drive/folders/1CQwC1yTIimgzU9wkLwqpfBiQK4upOc9q
