@@ -12,6 +12,6 @@ pub : publish a topic with image captured from video file(mp4)
 
 sub : inference node using image topic received from pub node
 
-engine inference time < about 15msec
+engine inference time < about 15msec on RTX 4070 Ti super
 
-total callback processing time < about 25msec
+total callback processing time < about 25msec on RTX 4070 Ti super
