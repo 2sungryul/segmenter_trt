@@ -56,6 +56,9 @@ add_executable(sub src/sub.cpp src/SegmenterTRT.cpp src/argmax_kernel.cu)
 ament_target_dependencies(sub rclcpp sensor_msgs)
 target_link_libraries(sub ${OpenCV_LIBS} ${TensorRT_LIBRARIES} cudart)
 
+# Set CUDA architectures
+set_property(TARGET sub PROPERTY CUDA_ARCHITECTURES 75 80 86 89)
+
 # Install targets
 install(TARGETS
     segmenter_node
