@@ -12,7 +12,7 @@ dependencies : wsl2-ubuntu24.04, ROS2 Jazzy, TensorRT 10.14.1, Cuda 12.9.1, cudn
 
 TensorRT engine file(FP32 precision) : https://drive.google.com/drive/folders/1CQwC1yTIimgzU9wkLwqpfBiQK4upOc9q
 
-# node info
+# ros2 node info
 
 segmenter_node : inference node using single image file
 
